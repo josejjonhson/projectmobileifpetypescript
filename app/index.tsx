@@ -13,6 +13,18 @@ export default function Index() {
       <Link href="/componentes_telas/telas/usuario/perfil/perfil" style={{ padding: 10, borderWidth: 1 }}>
         Ir para a tela de Perfil de Usuário
       </Link>
+      <Link href="/componentes_telas/telas/usuario/registro/registro" style={{ padding: 10, borderWidth: 1 }}>
+        Ir para a tela de Registro de Usuário
+      </Link>
+      <Link href="/componentes_telas/telas/empresa/perfil/perfil" style={{ padding: 10, borderWidth: 1 }}>
+        Ir para a tela de Perfil da Empresa
+      </Link>
+      <Link href="/componentes_telas/telas/estagios/exibir/exibir" style={{ padding: 10, borderWidth: 1 }}>
+        Ir para a tela de Listagem dinâmica de Estágios
+      </Link>
+      <Link href="/componentes_telas/telas/empresa/exibir" style={{ padding: 10, borderWidth: 1 }}>
+        Ir para a tela de Listagem dinâmica de Empresas
+      </Link>
     </View>
   );
 }

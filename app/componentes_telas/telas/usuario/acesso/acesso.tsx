@@ -20,7 +20,10 @@ function Acesso() {
             <TextBoxCustom isPassword={true} placeholder="Password" label="Senha" /> {/* Alterado para TextBoxCustom */}
           </View>
           <View style={styles.form}>
-            <ButtonCustom text="Acessar" /> {/* Alterado para ButtonCustom */}
+            <ButtonCustom text="Acessar" onPress={() => {
+              // Vamos adicionar a ação aqui em breve.
+              console.log('Botão Acessar pressionado!');
+            }} />
           </View>
         </View>
         
