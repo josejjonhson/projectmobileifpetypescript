@@ -1,6 +1,5 @@
 // PÁGINA USADA PRINCIPALMENTE PARA DEBUG E DIRECIONAMENTO
 
-
 import { Link } from 'expo-router';
 import { View } from 'react-native';
 
@@ -22,7 +21,7 @@ export default function Index() {
       <Link href="/componentes_telas/telas/estagios/exibir/exibir" style={{ padding: 10, borderWidth: 1 }}>
         Ir para a tela de Listagem dinâmica de Estágios
       </Link>
-      <Link href="/componentes_telas/telas/empresa/exibir" style={{ padding: 10, borderWidth: 1 }}>
+      <Link href="/componentes_telas/telas/empresa/exibir/exibir" style={{ padding: 10, borderWidth: 1 }}>
         Ir para a tela de Listagem dinâmica de Empresas
       </Link>
     </View>
