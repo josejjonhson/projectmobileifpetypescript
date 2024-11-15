@@ -2,11 +2,10 @@ import { Text, TextInput } from "react-native";
 import { styles } from "./TextBox.style";
 import React from "react";
 
-// Definir a interface para as props
 interface TextBoxProps {
   label: string;
   placeholder: string;
-  isPassword?: boolean; // Colocar como opcional, caso não seja sempre necessário
+  isPassword?: boolean; // Colocar como opcional caso não precise usar em um determinado campo emily
 }
 
 function TextBoxCustom({ label, placeholder, isPassword = false }: TextBoxProps) {

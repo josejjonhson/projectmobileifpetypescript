@@ -38,21 +38,19 @@ function Perfil() {
         />
       </View>
 
-      {/* Usando ButtonCustom para o botão "Editar Perfil" */}
       <ButtonCustom
         text="Editar Perfil"
         style={[styles.button, styles.editButton]}
         textStyle={styles.buttonText}
-        // Adicionar a ação do botão
+        // Adicionar a ação do botão depois
         onPress={() => console.log("Editar Perfil pressionado")}
       />
 
-      {/* Usando ButtonCustom para o botão "Sair" */}
       <ButtonCustom
         text="Sair"
         style={[styles.button, styles.footerButton]}
         textStyle={styles.buttonText}
-        // Adicionar a ação do botão
+        // Adicionar a ação do botão depois
         onPress={() => console.log("Sair pressionado")}
       />
     </ScrollView>

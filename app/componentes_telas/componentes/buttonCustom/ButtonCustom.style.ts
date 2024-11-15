@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
     borderRadius: 6,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: CORES.cinza_escuro,  // Cor de fundo
+    backgroundColor: CORES.cinza_escuro,  
   },
   text: {
     fontSize: TAMANHO_FONTE.md,

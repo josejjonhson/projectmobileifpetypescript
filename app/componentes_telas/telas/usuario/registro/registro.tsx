@@ -36,7 +36,7 @@ const Registro: React.FC = () => {
             <ButtonCustom 
                 text="Próximo passo" 
                 onPress={() => {
-                    // Ação que você quer executar ao pressionar o botão
+                    // Alterar depois e colocar a ação do botão
                     console.log("Próximo passo pressionado!");
                 }} 
             />

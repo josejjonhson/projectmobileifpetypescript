@@ -11,7 +11,7 @@ interface Stage {
 export default function Stages() {
   const [stages, setStages] = useState<Stage[]>([]);
 
-  // Função para renderizar cada item da lista de estágios
+  // Mesma função para renderizar cada item da lista de estágios
   const renderStage = ({ item }: { item: Stage }) => (
     <TouchableOpacity style={styles.stageContainer}>
       <Text style={styles.stageTitle}>{item.title}</Text>
